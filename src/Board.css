@@ -1,0 +1,36 @@
+.Board {
+  font-family: 'Silkscreen';
+}
+
+.Board table {
+  margin: 0 auto;
+  border-spacing: 4px;
+}
+
+.Board h1 {
+  font-size: 72px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.Board h3 {
+  margin-top: 20px;
+}
+
+.Board button {
+  background-color: #00FFAB;
+  box-shadow: 0 0 30px #00FFAB;
+  color: #143F6B;
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  border-style: none;
+  font-family: 'Silkscreen';
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.Board button:hover {
+  background-color: #01d4b4;
+}
